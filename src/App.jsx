@@ -45,7 +45,7 @@ export default function App() {
       <div className="app-shell">
         <div className="loading" role="status" aria-live="polite">
           <div className="loader-ring" />
-          Opening your diary…
+          Opening your diary...
         </div>
       </div>
     )

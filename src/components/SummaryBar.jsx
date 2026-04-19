@@ -132,7 +132,7 @@ export function SummaryBar({ expenses }) {
         </div>
         <p className="summary__label">Top Category</p>
         <p className="summary__value summary__value--sm">
-          {top ? `${categoryLabel(top[0])} · ${formatMoney(top[1])}` : '—'}
+          {top ? `${categoryLabel(top[0])} · ${formatMoney(top[1])}` : '-'}
         </p>
       </article>
     </div>

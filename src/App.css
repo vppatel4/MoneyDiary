@@ -219,7 +219,7 @@
   line-height: 1.35;
 }
 
-/* Calendar picker tile — overflow visible so dropdown isn't clipped */
+/* Calendar picker tile: overflow visible so dropdown is not clipped */
 .summary__tile--browse {
   position: relative;
   overflow: visible;

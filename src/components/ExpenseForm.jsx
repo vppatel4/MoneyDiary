@@ -133,7 +133,7 @@ export function ExpenseForm({ editing, onSubmit, onCancelEdit }) {
             onChange={(e) => handleChange('description', e.target.value)}
             onBlur={() => handleBlur('description')}
             rows={3}
-            placeholder="Optional notes: vendor, subscription period, split with roommate…"
+            placeholder="Optional notes: vendor, subscription period, split with roommate"
           />
           {errors.description ? <p className="field-error">{errors.description}</p> : null}
         </div>
